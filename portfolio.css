@@ -1,0 +1,45 @@
+.bg-color{
+    background-color: black;
+    text-align: center;
+}
+.font-div{
+    width: 30%;
+}
+img{
+    width: 100%;
+    height:307px;
+}
+#scrolltop
+{
+display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border:none;
+    color: #fff;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+}
+#scrolltop:hover{
+    background: #606060;
+}
+
+
+/* responsive */
+@media screen and (max-width:1000px) {
+    .font-div{
+        /* width: 115px!important; */
+        padding: 10px!important;
+        height:128px;
+    }
+    
+}
+@media screen and (max-width:500px) and (min-width:100px){
+    .font-div{
+        /* width: 115px!important; */
+        padding: 5px!important;
+    }
+    
+}
